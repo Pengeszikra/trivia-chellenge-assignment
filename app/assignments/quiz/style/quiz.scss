@@ -1,0 +1,16 @@
+.quiz-card {
+  text-align: center;
+  max-width: 500px;
+}
+
+.quiz-body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.grid-center {
+  display: grid;
+  place-items: center;
+  margin: 1em;
+}
