@@ -97,14 +97,6 @@ test ('simple addition', () => {
   );
 });
 
-test ('convert IQuestionSourceList to IQuizState', () => {
-  expect (
-    convertSourceToState(source, [])
-  ).toStrictEqual(
-    {sourceList: source}
-  );
-});
-
 test ('create enough id for source', () => {
   let firstId = 100;
   const mockIdCreator = () => (firstId++).toString(); 
@@ -115,4 +107,14 @@ test ('create enough id for source', () => {
   ).toStrictEqual(
     ['100', '101', '102', '103', '104', '105', '106', '107', '108', '109']
   );
+});
+
+test ('convert IQuestionSourceList to IQuizState', () => {
+  let firstId = 100;
+  const mockIdCreator = () => (firstId++).toString(); 
+  const idList = createIdList(mockIdCreator)(source);
+
+  expect (
+    convertSourceToState(source, idList)
+  ).toMatchSnapshot();
 });

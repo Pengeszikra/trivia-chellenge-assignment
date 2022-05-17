@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert IQuestionSourceList to IQuizState 1`] = `
+Object {
+  "correctAnswerList": Array [
+    "148",
+    "145",
+    "142",
+    "139",
+    "136",
+    "133",
+    "130",
+    "127",
+    "124",
+    "121",
+  ],
+  "shuffledQuestionList": Array [
+    Object {
+      "category": "History",
+      "question": "During the Winter War, the amount of Soviet Union soliders that died or went missing was five times more than Finland's.",
+      "questionId": "128",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "False",
+          "answerId": "126",
+        },
+        Object {
+          "answer": "True",
+          "answerId": "127",
+        },
+      ],
+    },
+    Object {
+      "category": "Politics",
+      "question": "Joko Widodo has appeared in the cover of a TIME magazine.",
+      "questionId": "137",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "False",
+          "answerId": "135",
+        },
+        Object {
+          "answer": "True",
+          "answerId": "136",
+        },
+      ],
+    },
+    Object {
+      "category": "Entertainment: Film",
+      "question": "The weapon Clint Eastwood uses in \\"Dirty Harry\\" was a .44 Automag.",
+      "questionId": "125",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "False",
+          "answerId": "124",
+        },
+        Object {
+          "answer": "True",
+          "answerId": "123",
+        },
+      ],
+    },
+    Object {
+      "category": "Entertainment: Books",
+      "question": "Harry Potter was born on July 31st, 1980.",
+      "questionId": "134",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "False",
+          "answerId": "132",
+        },
+        Object {
+          "answer": "True",
+          "answerId": "133",
+        },
+      ],
+    },
+    Object {
+      "category": "Entertainment: Video Games",
+      "question": "In Undertale, having a \\"Fun Value\\" set to 56-57 will play the \\"Wrong Number Song Call\\".",
+      "questionId": "140",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "False",
+          "answerId": "139",
+        },
+        Object {
+          "answer": "True",
+          "answerId": "138",
+        },
+      ],
+    },
+    Object {
+      "category": "Entertainment: Comics",
+      "question": "In the comic book \\"Archie\\", Betty is friends with Veronica because she is rich.",
+      "questionId": "143",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "False",
+          "answerId": "142",
+        },
+        Object {
+          "answer": "True",
+          "answerId": "141",
+        },
+      ],
+    },
+    Object {
+      "category": "Entertainment: Video Games",
+      "question": "The retail disc of Tony Hawk's Pro Skater 5 only comes with the tutorial.",
+      "questionId": "149",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "False",
+          "answerId": "147",
+        },
+        Object {
+          "answer": "True",
+          "answerId": "148",
+        },
+      ],
+    },
+    Object {
+      "category": "History",
+      "question": "Japan was part of the Allied Powers during World War I.",
+      "questionId": "146",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "True",
+          "answerId": "145",
+        },
+        Object {
+          "answer": "False",
+          "answerId": "144",
+        },
+      ],
+    },
+    Object {
+      "category": "Politics",
+      "question": "Nazi Germany surrendered on Harry Truman's birthday while he was president.",
+      "questionId": "131",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "False",
+          "answerId": "129",
+        },
+        Object {
+          "answer": "True",
+          "answerId": "130",
+        },
+      ],
+    },
+    Object {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "question": "The character Plum from \\"No Game No Life\\" is a girl.",
+      "questionId": "122",
+      "shuffledAnswerList": Array [
+        Object {
+          "answer": "True",
+          "answerId": "120",
+        },
+        Object {
+          "answer": "False",
+          "answerId": "121",
+        },
+      ],
+    },
+  ],
+  "sourceList": Array [
+    Object {
+      "category": "Entertainment: Video Games",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "The retail disc of Tony Hawk&#039;s Pro Skater 5 only comes with the tutorial.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "History",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "Japan was part of the Allied Powers during World War I.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "Entertainment: Comics",
+      "correct_answer": "False",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "True",
+      ],
+      "question": "In the comic book &quot;Archie&quot;, Betty is friends with Veronica because she is rich.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "Entertainment: Video Games",
+      "correct_answer": "False",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "True",
+      ],
+      "question": "In Undertale, having a &quot;Fun Value&quot; set to 56-57 will play the &quot;Wrong Number Song Call&quot;.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "Politics",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "Joko Widodo has appeared in the cover of a TIME magazine.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "Entertainment: Books",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "Harry Potter was born on July 31st, 1980.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "Politics",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "Nazi Germany surrendered on Harry Truman&#039;s birthday while he was president.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "History",
+      "correct_answer": "True",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "False",
+      ],
+      "question": "During the Winter War, the amount of Soviet Union soliders that died or went missing was five times more than Finland&#039;s.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "Entertainment: Film",
+      "correct_answer": "False",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "True",
+      ],
+      "question": "The weapon Clint Eastwood uses in &quot;Dirty Harry&quot; was a .44 Automag.",
+      "type": "boolean",
+    },
+    Object {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "correct_answer": "False",
+      "difficulty": "hard",
+      "incorrect_answers": Array [
+        "True",
+      ],
+      "question": "The character Plum from &quot;No Game No Life&quot; is a girl.",
+      "type": "boolean",
+    },
+  ],
+}
+`;
