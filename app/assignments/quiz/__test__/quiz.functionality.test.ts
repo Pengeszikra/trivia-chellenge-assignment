@@ -110,11 +110,10 @@ test ('create enough id for source', () => {
 });
 
 test ('convert IQuestionSourceList to IQuizState', () => {
-  let firstId = 100;
-  const mockIdCreator = () => (firstId++).toString(); 
+  let snapshotId = 333;
+  const mockIdCreator = () => (snapshotId++).toString(); 
   const idList = createIdList(mockIdCreator)(source);
+  const idWasPopulated = convertSourceToState(source, idList);
 
-  expect (
-    convertSourceToState(source, idList)
-  ).toMatchSnapshot();
+  expect (idWasPopulated).toMatchSnapshot();
 });
