@@ -10,8 +10,7 @@
     "start": "webpack-dev-server --port 4444 --mode development",
     "lint": "eslint ./app",
     "test": "jest",
-    "watch": "jest --watchAll --updateSnapshot",
-    "coverage": "jest --coverage"
+    "watch": "jest --watchAll"
   },
   "keywords": [
     "react",
