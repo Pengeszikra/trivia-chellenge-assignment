@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Card, Button } from "react-bootstrap";
-import { ActionArmy } from "../../../utils/react-troll-declaration";
+import { ActionArmy } from "../../utils/react-troll-declaration";
 import { IQuizState } from "../state/quiz-declaration";
 
 export interface IResult {

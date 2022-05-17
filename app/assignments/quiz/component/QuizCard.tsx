@@ -1,15 +1,16 @@
 import { FC } from "react";
 import {Stack, Card, Button} from 'react-bootstrap';
-import { ActionArmy } from "../../utils/react-troll-declaration";
+import { ActionArmy } from "../utils/react-troll-declaration";
 import { IQuestion } from "./state/quiz-declaration";
 
 export interface IQuizCardProps {
   randomQuestion: IQuestion;
   army: ActionArmy;
   answerIndex: number;
+  numberOfQuestion: number;
 }
 
-export const QuizCard:FC<IQuizCardProps> = ({randomQuestion, answerIndex, army}:IQuizCardProps) => {
+export const QuizCard:FC<IQuizCardProps> = ({randomQuestion, answerIndex, army, numberOfQuestion}:IQuizCardProps) => {
 
   const {shuffledAnswerList, question, category} = randomQuestion;
   const {markAnswer, nextQuiz} = army;
@@ -29,7 +30,7 @@ export const QuizCard:FC<IQuizCardProps> = ({randomQuestion, answerIndex, army}:
             <Button key={answerId} onClick={handleMarkAnswer(answerId)}>{answer}</Button>
           )}
         </Stack>
-        <p className="grid-center">{answerIndex + 1} of {shuffledAnswerList.length + 1}</p>
+        <p className="grid-center">{answerIndex + 1} of {numberOfQuestion}</p>
       </Card.Body>
     </Card>
   )

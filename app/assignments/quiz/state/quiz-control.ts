@@ -1,5 +1,5 @@
 import { actionFactory, kebabToCamelCase } from "react-troll";
-import { Action } from "../../../utils/react-troll-declaration";
+import { Action } from "../../utils/react-troll-declaration";
 import { convertSourceToState } from "../library/convertSourceToState";
 import { IQuizState, PROGRESS } from "./quiz-declaration";
 

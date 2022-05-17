@@ -6,7 +6,7 @@ import { Results } from './component/Results';
 import { QuizCard } from './component/QuizCard';
 import { IQuizState, PROGRESS } from './state/quiz-declaration';
 import { useQuizReducer } from './state/useQuizReducer';
-import { Troll } from '../../utils/react-troll-declaration';
+import { Troll } from '../utils/react-troll-declaration';
 import { createIdList } from './library/createIdList';
 import { uuid } from './library/uuid';
 
@@ -38,13 +38,13 @@ export const TriviaChallenge:FC = () => {
           <Navbar.Brand>Trivia Challenge</Navbar.Brand>
         </Container>
       </Navbar>
-      <section className="quiz-body">        
+      <section className="quiz-body">
         {progress === PROGRESS.INTRO && (
           <Intro beginQuiz={beginQuiz}></Intro>
         )}
 
         {progress === PROGRESS.QUIZ && shuffledQuestionList?.[answerIndex] && (
-          <QuizCard army={army} answerIndex={answerIndex} randomQuestion={shuffledQuestionList?.[answerIndex]} />
+          <QuizCard army={army} answerIndex={answerIndex} randomQuestion={shuffledQuestionList?.[answerIndex]} numberOfQuestion={shuffledQuestionList?.length ?? 0}/>
         )}
 
         {progress === PROGRESS.RESULTS && (
