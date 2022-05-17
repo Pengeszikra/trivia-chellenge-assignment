@@ -1,8 +1,8 @@
-# Paralell Assignments
+# Trivia Challenge Assignment
 
-I have lot of paralell assigments, so I coding paralell from POC to separation.
+Uncompletted working example by [specification](./app/assignments/quiz/__document/QUIZ-SPECIFICATIONS.md)
 
-> The main reason is the unified building setup which are ```react```, ```typescript```, ```webpack```, ```jest```.
+> tag :: ```react```, ```typescript```, ```webpack```, ```jest```.
 
 ## Prerequisite:
   - ```npm``` v8.1+
